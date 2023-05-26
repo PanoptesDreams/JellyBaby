@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Check if the music folder exists and get the list of music tracks
-    fetch('/music/')
+    fetch('/script/')
       .then(response => response.text())
       .then(html => {
           const parser = new DOMParser();
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
               const trackLink = document.createElement('a');
               trackLink.className = "track-link";
               trackLink.textContent = link.textContent;
-              trackLink.href = "/music/" + link.textContent;
+              trackLink.href = "/script/" + link.textContent;
               track.appendChild(trackLink);
               musicList.appendChild(track);
           });

@@ -17,7 +17,7 @@ body {
 /* Style for the top bar */
 .top-bar {
     height: 50px;
-    background: linear-gradient(to bottom, rgba(83, 83, 83, 1), rgba(31, 31, 31, 1), rgba(45, 17, 91, 0.37));
+    background: linear-gradient(to bottom, rgba(4, 29, 21, 1), rgb(21, 142, 89, 1), rgba(rgb(32, 218, 136, 0.37)));
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -70,14 +70,14 @@ body {
 }
 
     .searcherbutton:hover {
-        background: #FF2C58;
+        background: #0f7449;
     }
 
 /* Style for the bottom bar */
 .bottom-bar {
     width: 100%;
     height: 50px;
-    background: linear-gradient(to top, rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 0));
+    background: linear-gradient(to top, rgb(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(51, 51, 51, 0));
     position: fixed;
     bottom: 0;
     left: 0;
@@ -147,7 +147,7 @@ span {
 .left-column {
     border-top-right-radius: 13px;
     border-bottom-right-radius: 13px;
-    background: linear-gradient(rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 0));
+    background: linear-gradient(rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(51, 51, 51, 0));
     width: 20%;
     min-height: 100%;
     float: left;
@@ -177,7 +177,7 @@ span {
     display: none;
     border-top-right-radius: 11px;
     border-bottom-right-radius: 11px;
-    background: linear-gradient(rgba(45, 17, 91, 0.91), rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(45, 17, 91, 0.69));
+    background: linear-gradient(rgba(45, 17, 91, 0.91), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(45, 17, 91, 0.69));
     position: absolute;
     left: 100%;
     top: 0;
@@ -215,7 +215,7 @@ span {
     margin-top: 8px;
     border-top-left-radius: 13px;
     border-bottom-left-radius: 13px;
-    background: linear-gradient(rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 1), rgba(51, 51, 51, 0));
+    background: linear-gradient(rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(51, 51, 51, 0));
     width: 20%;
     float: right;
     padding-left: 20px;

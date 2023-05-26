@@ -17,7 +17,7 @@ body {
 /* Style for the top bar */
 .top-bar {
     height: 50px;
-    background: linear-gradient(to bottom, rgba(4, 29, 21, 1), rgb(21, 142, 89, 1), rgba(rgb(32, 218, 136, 0.37)));
+    background: linear-gradient(to bottom, rgba(4, 29, 21, 1), rgb(21, 142, 89, 1), rgba(32, 218, 136, 0.37));
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -96,7 +96,7 @@ body {
 
 .music-player {
     width: 300px;
-    background-color: pink;
+    background-color: darkgreen;
     border: 3px solid black;
     padding: 20px;
     border-radius: 10px;

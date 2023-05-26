@@ -133,7 +133,7 @@ input[type=range] {
         -webkit-appearance: none;
         width: 15px;
         height: 15px;
-        background-color: pink;
+        background-color: darkgreen;
         border: 1px solid black;
         border-radius: 50%;
         cursor: pointer;

@@ -32,9 +32,9 @@ body {
 
 .logo {
     float: left;
-    height: 50px;
     width: 50px;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 10px;
 }
 
@@ -110,7 +110,7 @@ body {
 
 button {
     background-color: transparent;
-    color: pink;
+    color: darkgreen;
     border: none;
     font-size: 24px;
     padding: 5px;

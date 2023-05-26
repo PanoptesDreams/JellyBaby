@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           // For each HTML file, fetch its contents and append them to the div
           htmlFiles.forEach(file => {
-              fetch(`./tile/tile_${file}`)
+              fetch(`./tile/${file}`)
                 .then(response => response.text())
                 .then(html => {
                     // Create a div element to hold the contents of the file

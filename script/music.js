@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Check if the music folder exists and get the list of music tracks
-    fetch('/')
+    fetch('/music/')
       .then(response => response.text())
       .then(html => {
           const parser = new DOMParser();

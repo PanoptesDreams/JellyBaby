@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const leftColumnLinksDiv = document.getElementById('left-column-links');
 
     // Read the contents of the `tile` folder
-    fetch('./script/')
+    fetch('./tile/')
       .then(response => response.text())
       .then(html => {
           // Parse the HTML string into a DOM tree
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           // For each HTML file, fetch its contents and append them to the div
           htmlFiles.forEach(file => {
-              fetch(`./script/${file}`)
+              fetch(`./tile/${file}`)
                 .then(response => response.text())
                 .then(html => {
                     // Create a div element to hold the contents of the file

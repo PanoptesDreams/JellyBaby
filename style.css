@@ -177,7 +177,7 @@ span {
     display: none;
     border-top-right-radius: 11px;
     border-bottom-right-radius: 11px;
-    background: linear-gradient(rgba(45, 17, 91, 0.91), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(45, 17, 91, 0.69));
+    background: linear-gradient(rgba(120, 243, 198, 0.19), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(4, 29, 21, 1), rgba(120, 243, 198, 0.19));
     position: absolute;
     left: 100%;
     top: 0;
